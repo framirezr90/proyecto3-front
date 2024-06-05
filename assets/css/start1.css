@@ -1,0 +1,12 @@
+/* Estilos para el carrusel */
+.p {
+    text-align: justify;
+ }
+ 
+ .img-fluid {
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+ }
+
+ 

@@ -1,0 +1,74 @@
+/* Estilos para el pie de página */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 0;
+    width: 100%; /* Asegúrate de que el footer ocupe todo el ancho */
+    
+ }
+ 
+ .footer .container-fluid {
+    width: 100%;
+    padding: 0 15px; /* Ajusta el padding según sea necesario */
+ }
+ 
+ .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+ }
+ 
+ .footer a:hover {
+    color: #d4d4d4;
+   
+ }
+ 
+ .footer .social-icons a {
+    font-size: 34px;
+    margin-right: 15px;
+    
+ }
+ 
+ .footer .social-icons a:hover {
+    color: #d4d4d4;
+  
+    
+    
+ }
+ 
+ .footer .contact-info i {
+    font-size: 20px;
+    margin-right: 10px;
+ }
+ 
+ .footer .contact-info p {
+    margin: 10px 0;
+ }
+ 
+
+ .icon{
+    display: inline-block;
+    animation: float 5s ease-in-out infinite;
+ }
+ 
+ .fa-facebook{
+    animation-delay: 1s;
+    
+
+ }
+
+ .fa-whatsapp{
+    animation-delay: 2s;
+ }
+
+ @keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+ }

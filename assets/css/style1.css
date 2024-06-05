@@ -1,0 +1,162 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+   /* min-height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+ }
+ 
+ p{
+    text-align: justify;
+ }
+ 
+ .p-history{
+    text-align: justify;
+ }
+ 
+ b{
+    color: #f55c04;
+ }
+ /* Estilos para las secciones */
+ section {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-top: 100px; /* Ajustar el valor según la altura del encabezado */
+ }
+ 
+ 
+ 
+ button {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+ }
+ 
+ /* Estilos para el contenido principal */
+ main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Permite que el main crezca para ocupar el espacio disponible */
+    width: 100%;
+    padding: 20px;
+    padding-top: 100px;
+ }
+ 
+ .intro {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+ }
+ 
+ .intro h1 {
+    font-size: 3em;
+ }
+ 
+ .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid #e6e6e6;
+ }
+ 
+ .content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+ }
+ 
+ .content p {
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ 
+ .image {
+    width: 400px;
+    height: 400px;
+    background-color: #333;
+    margin-bottom: 20px;
+    border-radius: 10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ /* Estilos para dispositivos móviles */
+ @media (max-width: 767px) {
+    section {
+        height: auto; /* Cambiar a altura automática en dispositivos móviles */
+        padding: 20px; /* Agregar relleno para contenido */
+    }
+ 
+    .footer .social-icons {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+ 
+    .footer .contact-info {
+        text-align: center;
+    }
+ }
+ 
+ 
+ /* Carrusel 2 Prueba */
+ .carousel-item {
+    transition: transform 6.6s ease;
+  }
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .stars {
+    color: red;
+  }
+  .container h2{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+ 
+ 
+ .section-carrusel2{
+    margin-top: 140px;
+ }
+
+ /* Cambiar el color de las barras del carrusel */
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+     background-color: #839192; 
+     border-radius: 10px;/* Cambia este color según tu preferencia */
+ }
+
+ /* Cambiar el color de los indicadores del carrusel */
+ .carousel-indicators [data-bs-target] {
+     background-color: #F0F3F4; /* Cambia este color según tu preferencia */
+ }
+
+ .carousel-indicators .active {
+     background-color: #F0F3F4; /* Cambia este color según tu preferencia */
+ }
+
+ /* Medias queries para el carrusel  */
+
+ @media (max-width: 768px) {
+   .carousel-item .col-12 {
+       text-align: center;
+   }
+   .carousel-item .p-3 {
+       padding: 1rem !important;
+   }
+   .carousel-item img {
+       max-width: 100%;
+       height: auto;
+   }
+}

@@ -1,0 +1,168 @@
+
+
+.card-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+.card-body {
+    width: auto;
+    height: 350px;
+    border: 2px solid #f55c04;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.fa-star {
+    color: gold;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card-body {
+    color: white;
+    background-color: #121212;
+    border: 2px solid white;
+}
+
+.dark-mode .card-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.dark-mode .section-carrusel2 {
+    background-color: #121212; /* Cambia el color de fondo de la sección */
+}
+
+.dark-mode .libre-baskerville-regular {
+    color: white; /* Cambia el color del texto */
+}
+
+/* Media Queries para hacer la sección responsiva */
+/* Media Queries para hacer la sección responsiva */
+@media (max-width: 1200px) {
+    .card-body {
+        height: 350px;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-body {
+        height: 300px;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 15px; /* Agregamos un pequeño margen inferior */
+    }
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        height: auto;
+    }
+
+    .card {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15px; /* Agregamos un pequeño margen inferior */
+    }
+
+    .carousel-inner .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-inner .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+
+    .carousel-inner .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        height: auto;
+    }
+
+    .card {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15px; /* Agregamos un pequeño margen inferior */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centramos las tarjetas horizontalmente */
+    }
+
+    .carousel-inner .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-inner .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        width: 80%; /* Reducimos el ancho de las tarjetas */
+        margin: auto;
+        margin-bottom: 15px; /* Agregamos un pequeño margen inferior */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Reducimos aún más el ancho de las tarjetas */
+        margin: auto;
+        margin-bottom: 15px; /* Agregamos un pequeño margen inferior */
+        padding: 10px; /* Agregamos un pequeño relleno alrededor de las tarjetas */
+    }
+
+    .carousel-inner .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-inner .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        display: none;
+    }
+}
+

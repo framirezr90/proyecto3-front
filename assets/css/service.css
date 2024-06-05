@@ -1,0 +1,61 @@
+/* Estilos para los servicios */
+#services {
+   padding: 50px 0;
+   margin-top: 130px;
+}
+
+.service-item {
+   background-color: #ffffff;
+   padding: 30px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   transition: transform 0.4s ease-in-out;
+   height: 92%; /* Asegura que la tarjeta ocupe toda la altura disponible */
+}
+
+.p-service {
+   text-align: justify;
+}
+
+.service-item:hover {
+   transform: translateY(-10px);
+}
+
+.service-item i {
+   font-size: 40px;
+   color: rgb(0, 0, 0);
+   margin-bottom: 20px;
+   display: inline-block;
+}
+
+.service-item h3 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+.service-item p {
+   font-size: 16px;
+   color: #6c757d;
+}
+
+/* Dark mode */
+.dark-section {
+   background-color: #333; /* Cambia esto al color oscuro que desees */
+   color: #fff; /* Cambia esto al color de texto que desees para que contraste con el fondo oscuro */
+   padding: 50px; /* Ajusta el padding según sea necesario */
+}
+
+.dark-mode .card-dark {
+   background-color: #333; /* Cambia esto al color oscuro que desees */
+   color: #fff; /* Cambia esto al color de texto que desees para que contraste con el fondo oscuro */
+}
+
+.dark-mode .service-item {
+   background-color: #343a40;
+}
+
+.dark-mode .service-item p {
+   color: #fff;
+}

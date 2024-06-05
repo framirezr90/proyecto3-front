@@ -1,0 +1,30 @@
+/*Scroll Perzonalizado*/
+
+.main::-webkit-scrollbar{
+    width: 10px;
+
+}
+
+.main::-webkit-scrollbar-thumb {
+	background: white;
+	border-radius: 5px;
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #414141;
+}
+
+body::-webkit-scrollbar {
+	width: 15px;
+	background: #D0D3D4;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgba(255,255,255, .2);
+	border-radius: 10px;
+	border-right: 2px solid #34495E;
+}

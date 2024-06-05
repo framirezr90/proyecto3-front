@@ -1,0 +1,54 @@
+/* Estilos para los servicios */
+#historys {
+    padding: 50px 0;
+ }
+ 
+ .history-item {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.4s ease-in-out;
+ }
+ 
+ .p-history{
+    text-align:justify ;
+ }
+ 
+ .history-item:hover {
+    transform: translateY(-10px);
+ }
+ 
+ .history-item i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 20px;
+    display: inline-block;
+ }
+ 
+ .history-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+   
+ }
+ 
+ .history-item p {
+    font-size: 16px;
+    color: #6c757d;
+ }
+
+ /*Estilo oscuro*/
+.dark-mode .card-dark {
+    background-color: #333; /* Cambia esto al color oscuro que desees */
+    color: #fff; /* Cambia esto al color de texto que desees para que contraste con el fondo oscuro */
+ }
+
+ .dark-mode .history-item{
+    background-color: #343a40;
+    
+ }
+ .dark-mode .history-item p{
+    color: #fff;
+ } 

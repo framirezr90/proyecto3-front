@@ -1,0 +1,148 @@
+/* Estilos para el header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+/* Estilo para el elemento <li> resaltado */
+.highlight a {
+    background-color: #f55c04;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 3px solid gray;
+}
+
+/* Estilos para el logotipo */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo img {
+    height: 90px; /* Ajusta la altura del logo */
+    width: auto;  /* Mantén la proporción de la imagen */
+    margin-right: 10px;
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de menú hamburguesa */
+.menu-toggle {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle i {
+    color: #333;
+}
+
+/* Media queries para pantallas más medianas */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        height: 50px; /* Ajusta la altura del logo para pantallas más pequeñas */
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        display: none; /* Oculta la navegación por defecto */
+        width: 100%;
+        background-color: #fff; /* Asegura que el fondo sea consistente */
+        position: absolute; /* Permite que el menú se posicione sobre otros elementos */
+        top: 60px; /* Ajusta la posición del menú desplegable */
+        left: 0;
+        padding: 10px 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra para mejor visibilidad */
+        z-index: 9999; /* Asegura que el menú esté por encima de otros elementos */
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        padding: 10px 15px;
+    }
+
+    .menu-toggle {
+        display: block; /* Muestra el botón de menú hamburguesa */
+    }
+
+    nav ul.active {
+        display: flex; /* Muestra la navegación cuando el botón de menú se activa */
+        flex-direction: column;
+    }
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 480px) {
+    header {
+        padding: 10px 10px;
+    }
+
+    nav ul {
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+}
+
+/* Estilos para el header en modo oscuro */
+.dark-mode header {
+    background-color: #333; /* Cambia el color de fondo del header */
+    color: #fff; /* Cambia el color del texto del header */
+}
+
+.dark-mode nav ul li a {
+    color: #fff; /* Cambia el color del texto de los enlaces en el header */
+}
+
