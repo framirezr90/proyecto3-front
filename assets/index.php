@@ -20,7 +20,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css"> <!-- Hoja de estilo general -->
     <link rel="stylesheet" href="css/header.css"> <!-- Hoja de estilo Navbar -->
-    <link rel="stylesheet" href="css/start1.css"> <!--Hoja de estilo start-->
+    <link rel="stylesheet" href="css/start2.css"> <!--Hoja de estilo start-->
     <link rel="stylesheet" href="css/service.css"> <!-- Hoja de estilo Servicios -->
     <link rel="stylesheet" href="css/gallery.css"> <!-- Hoja de estilo galería -->
     <link rel="stylesheet" href="css/history.css"> <!-- Hoja de estilo Historia -->
@@ -86,9 +86,11 @@
                     <!-- First Slide -->
                     <div class="carousel-item active">
                         <div class="row">
+                        <h2 class="libre-baskerville-regular">Quienes Somos</h2>
                             <div class="col-6">
+                                
                                 <div class="p-3 text-center">
-                                    <h2 class="libre-baskerville-regular">Quienes Somos</h2>
+                                    
                                     <div>
                                         <p>Bienvenido a <b>Energy and Water SpA</b>, una empresa líder en la instalación
                                             y
@@ -126,15 +128,17 @@
                     </div>
                     <!-- Second Slide -->
                     <div class="carousel-item">
+                    <h2 class="libre-baskerville-regular">Nuestra Visión</h2>
                         <div class="row">
                             <div class="col-6">
                                 <div class="p-3 text-center">
                                     <img src="img3/img3.webp" class="img-fluid" alt="Imagen 3">
                                 </div>
                             </div>
+                            
                             <div class="col-6">
                                 <div class="p-3 text-center">
-                                    <h2 class="libre-baskerville-regular">Nuestra Visión</h2>
+                                    
                                     <p>Nuestra visión en Energy & Water SpA es convertirnos en la empresa líder y
                                         referente en soluciones integrales de ventilación, calefacción, electricidad y
                                         construcción, reconocida por nuestra innovación, calidad y compromiso con la
