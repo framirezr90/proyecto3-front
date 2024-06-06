@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="css/scroll.css"> <!-- Hoja de estilo general -->
     <link rel="stylesheet" href="css/font1.css"> <!-- Hoja de estilo general -->
     <link rel="stylesheet" href="css/reseñas.css"> <!-- Hoja de estilo Reseñas -->
+    <link rel="stylesheet" href="css/menuT.css"> <!-- Hoja de estilo menu toogle -->
     
 
 
@@ -45,26 +46,34 @@
 <body class="container">
     <!-- Header -->
 
-    <header class="header-with-border">
-        
+    <header class="navbar navbar-expand-lg fixed-top">
+
+        <!-- Logo y Navegación -->
         <div class="logo">
             <a href=""><img src="img/new-logo.png" alt="Logo Empresa"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#start">Inicio</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#gallery">Galería</a></li>
-                <li><a href="#history">Historia</a></li>
-                <li><a href="#team">Equipo</a></li>
-                <li><a href="#contactUs">Contáctanos</a></li>
-                <li><a href="#reseñas">Reseñas</a></li>
-                <li><a href="#faq">Preguntas Frecuentes</a></li>
-                <li id="dark-mode-toggle"><a href="#" id="toggle-dark-mode"><i id="icon-moon"
-                            class="fa-solid fa-moon"></i></a></li>
-            </ul>
-        </nav>
-    </header>
+
+        <!-- Contenedor del botón del menú y del menú desplegable -->
+        <div class="menu-container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse navbar-expand-lg" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li><a href="#start">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#history">Historia</a></li>
+                    <li><a href="#team">Equipo</a></li>
+                    <li><a href="#contactUs">Contáctanos</a></li>
+                    <li><a href="#faq">Preguntas Frecuentes</a></li>
+                    <li id="dark-mode-toggle"><a href="#" id="toggle-dark-mode"><i id="icon-moon"
+                                class="fa-solid fa-moon"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
 
     <main>
@@ -673,6 +682,7 @@
 
     <script src="js/script5.js"></script>
     <script src="js/navbar.js"></script>
+    <!-- <script src="js/menu.js"></script> -->
     
     <script src="js/categorias.js"></script>
     <script src="js/preguntasFrecuentes.js"></script>

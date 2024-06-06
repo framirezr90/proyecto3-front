@@ -1,0 +1,68 @@
+   /* Estilo personalizado */
+   .navbar .container {
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-toggler:focus-visible {
+    outline: none;
+}
+
+.btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+/* Estilo personalizado */
+@media (max-width: 991.98px) {
+    /* Estilos para el menú desplegable */
+    .navbar-expand-lg .navbar-nav {
+        position: absolute;
+        top: 56px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 0;
+        background-color: #fff; /* Cambia el color de fondo a blanco */
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0.5rem 1rem;
+        color: black; /* Cambia el color del texto a negro */
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+     /* Estilos para el modo oscuro */
+     .dark-mode .navbar-expand-lg .navbar-nav {
+        background-color: #333; /* Cambiar el color de fondo en modo oscuro */
+    }
+
+    .dark-mode .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fff; /* Cambiar el color de texto en modo oscuro */
+    }
+
+    .dark-mode .navbar-toggler .navbar-toggler-icon {
+        filter: invert(1);
+         /* Invierte los colores del icono del botón del menú en modo oscuro */
+    }
