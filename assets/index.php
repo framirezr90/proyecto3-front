@@ -18,21 +18,24 @@
 
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style1.css"> <!-- Hoja de estilo general -->
-    <link rel="stylesheet" href="css/header3.css"> <!-- Hoja de estilo Navbar -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Hoja de estilo general -->
+    <link rel="stylesheet" href="css/header.css"> <!-- Hoja de estilo Navbar -->
     <link rel="stylesheet" href="css/start1.css"> <!--Hoja de estilo start-->
     <link rel="stylesheet" href="css/service.css"> <!-- Hoja de estilo Servicios -->
-    <link rel="stylesheet" href="css/gallery1.css"> <!-- Hoja de estilo galería -->
-    <link rel="stylesheet" href="css/history1.css"> <!-- Hoja de estilo Historia -->
+    <link rel="stylesheet" href="css/gallery.css"> <!-- Hoja de estilo galería -->
+    <link rel="stylesheet" href="css/history.css"> <!-- Hoja de estilo Historia -->
     <link rel="stylesheet" href="css/team1.css"> <!-- Hoja de estilo nuestro equipo -->
-    <link rel="stylesheet" href="css/contactUs.css"> <!-- Hoja de estilo general -->
-    <link rel="stylesheet" href="css/faq1.css"> <!-- Hoja de estilo general -->
-    <link rel="stylesheet" href="css/footer1.css"> <!-- Hoja de estilo general -->
-    <link rel="stylesheet" href="css/darkmode1.css"> <!-- Hoja de estilo general -->
-    <link rel="stylesheet" href="css/button1.css"> <!-- Hoja de estilo general -->
-    <link rel="stylesheet" href="css/scroll1.css"> <!-- Hoja de estilo general -->
-    <link rel="stylesheet" href="css/font.css"> <!-- Hoja de estilo general -->
-    <link rel="stylesheet" href="css/reseñas1.css"> <!-- Hoja de estilo Reseñas -->
+    <link rel="stylesheet" href="css/contactUs1.css"> <!-- Hoja de estilo general -->
+    <link rel="stylesheet" href="css/faq.css"> <!-- Hoja de estilo general -->
+    <link rel="stylesheet" href="css/footer.css"> <!-- Hoja de estilo general -->
+    <link rel="stylesheet" href="css/darkmode.css"> <!-- Hoja de estilo general -->
+    <link rel="stylesheet" href="css/button.css"> <!-- Hoja de estilo general -->
+    <link rel="stylesheet" href="css/scroll.css"> <!-- Hoja de estilo general -->
+    <link rel="stylesheet" href="css/font1.css"> <!-- Hoja de estilo general -->
+    <link rel="stylesheet" href="css/reseñas.css"> <!-- Hoja de estilo Reseñas -->
+    
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
@@ -43,8 +46,7 @@
     <!-- Header -->
 
     <header class="header-with-border">
-
-        <!-- Logo y Navegación -->
+        
         <div class="logo">
             <a href=""><img src="img/new-logo.png" alt="Logo Empresa"></a>
         </div>
@@ -56,6 +58,7 @@
                 <li><a href="#history">Historia</a></li>
                 <li><a href="#team">Equipo</a></li>
                 <li><a href="#contactUs">Contáctanos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
                 <li><a href="#faq">Preguntas Frecuentes</a></li>
                 <li id="dark-mode-toggle"><a href="#" id="toggle-dark-mode"><i id="icon-moon"
                             class="fa-solid fa-moon"></i></a></li>
@@ -669,7 +672,8 @@
     <!-- Custom Scripts -->
 
     <script src="js/script5.js"></script>
-    <script src="js/navbar2.js"></script>
+    <script src="js/navbar.js"></script>
+    
     <script src="js/categorias.js"></script>
     <script src="js/preguntasFrecuentes.js"></script>
     <script src="js/reseña1.js"></script>
@@ -698,7 +702,7 @@
         });
     </script>
 
-
+   
 
 </body>
 

@@ -1,5 +1,4 @@
 <?php
 
 ?>
-<a href="assets/index.php"> inicio </a>
- 
+<a href="assets/index.php">inicio</a>

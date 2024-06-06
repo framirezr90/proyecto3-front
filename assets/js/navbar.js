@@ -74,27 +74,3 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    const toggleDarkModeBtn = document.getElementById('toggle-dark-mode');
-    const iconMoon = document.getElementById('icon-moon');
-    
-    toggleDarkModeBtn.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.body.classList.toggle('dark-mode');
-      document.querySelector('.navbar').classList.toggle('dark-mode');
-      document.querySelector('.offcanvas-body').classList.toggle('dark-mode');
-      document.querySelectorAll('.dropdown-menu').forEach(el => el.classList.toggle('dark-mode'));
-      document.querySelectorAll('.form-control').forEach(el => el.classList.toggle('dark-mode'));
-      document.querySelectorAll('.btn-outline-success').forEach(el => el.classList.toggle('dark-mode'));
-      document.querySelector('.navbar-nav').classList.toggle('dark-mode');
-
-      // Cambiar el ícono de la luna/sol
-      if (document.body.classList.contains('dark-mode')) {
-        iconMoon.classList.remove('fa-moon');
-        iconMoon.classList.add('fa-sun');
-      } else {
-        iconMoon.classList.remove('fa-sun');
-        iconMoon.classList.add('fa-moon');
-      }
-    });
-  });

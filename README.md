@@ -1,8 +1,7 @@
-# proyecto3-front
+#Los Perifericos
 
-Grupo los perifericos
-Integrantes: 
-Mathias Ávila
-Matías Trujillo
-Fabián Ramírez
-Javiera Rivera.
+#Grupo los perifericos
+#Integrantes: 
+#Mathias Ávila
+#Matías Trujillo
+#Javiera Rivera -->
